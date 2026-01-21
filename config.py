@@ -14,7 +14,7 @@ class Config:
     PAYTM_MERCHANT_ID = os.getenv("PAYTM_MERCHANT_ID", "IKFMfs86057296096803")
     PAYTM_MERCHANT_KEY = os.getenv("PAYTM_MERCHANT_KEY", "Yrq0NIq2hqVS3V@a")
     PAYTM_WEBSITE = os.getenv("PAYTM_WEBSITE", "WEBSTAGING")
-    PAYTM_CALLBACK_URL = os.getenv("PAYTM_CALLBACK_URL", "https://yourdomain.com/callback")
+    PAYTM_CALLBACK_URL = os.getenv("PAYTM_CALLBACK_URL", "https://civic-kassi-teamorg-efc0c71c.koyeb.app/callback")
     
     # Payment plans
     PAYMENT_PLANS = {
